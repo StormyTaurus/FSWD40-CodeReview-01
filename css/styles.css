@@ -1,0 +1,140 @@
+* {
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+
+
+header {
+    background-color: #DE5254;
+    width: 100%;
+    color: white;
+    padding-top: 0.5em;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#top {
+    padding-bottom: 0.5em;
+}
+
+#logo {
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+}
+
+#myname {
+    position: relative;
+    left: 1em;
+    bottom: 1.5em;
+}
+
+nav {
+    width: 100%;
+    height: 2em;
+    border-top: 2px solid #FFFFFF;
+    padding-top: 10px;
+    background-color: #868686;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+main {
+    margin-top: 8em;
+}
+
+.flexcontainer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* You can set flex-wrap and
+      flex-direction individually */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Or do it all in one line
+     with flex flow */
+    flex-flow: stretch;
+    /* tweak where items line
+      up on the row
+      valid values are: flex-start,
+      flex-end, space-between,
+      space-around, stretch */
+    align-content: flex-end;
+    width: 100%;
+
+
+    color: black;
+    text-align: left;
+}
+
+.flexcontainer-row>div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+figure img {
+    width: 15em;
+    height: 15em;
+    object-fit: fill;
+}
+
+figcaption {
+    max-width: 15em;
+}
+
+figure {
+    min-height: 18em;
+    -webkit-flex-grow: 0;
+    -webkit-flex-shrink: 1;
+    -webkit-flex-basis: auto;
+}
+
+footer {
+    background-color: #DE5254;
+    width: 100%;
+    height: 3em;
+    color: white;
+    text-align: center;
+}
+
+#fb-profilepicture {
+    margin-left: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 15em;
+}
+
+#about-me-text {
+    margin-left: 15px;
+}
+
+#contact-form {
+    margin: 15px;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+iframe {
+    margin-left: 15px;
+}
